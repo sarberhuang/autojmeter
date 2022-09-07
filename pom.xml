@@ -38,6 +38,7 @@
             <version>1.2.75</version>
         </dependency>
 
+
     </dependencies>
 
     <build>
@@ -51,10 +52,13 @@
                     <resultsFileFormat>xml</resultsFileFormat>
                     <ignoreResultFailures>true</ignoreResultFailures>
                     <testResultsTimestamp>flase</testResultsTimestamp>
+                    <testPlanLibraries>
+                        <artifact>net.minidev:asm:1.0.2</artifact>
+                    </testPlanLibraries>
                 </configuration>
                 <executions>
                     <execution>
-                        <id>test</id>
+                        <id>jmeter-tests</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>jmeter</goal>
