@@ -47,11 +47,11 @@
             <plugin>
                 <groupId>com.lazerycode.jmeter</groupId>
                 <artifactId>jmeter-maven-plugin</artifactId>
-                <version>2.9.0</version>
+                <version>3.1.0</version>
                 <configuration>
                     <resultsFileFormat>xml</resultsFileFormat>
                     <ignoreResultFailures>true</ignoreResultFailures>
-                    <testResultsTimestamp>flase</testResultsTimestamp>
+                    <testResultsTimestamp>false</testResultsTimestamp>
                     <testPlanLibraries>
                         <artifact>net.minidev:asm:1.0.2</artifact>
                     </testPlanLibraries>
